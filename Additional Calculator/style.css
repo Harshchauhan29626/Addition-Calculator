@@ -1,0 +1,54 @@
+body{
+    background-image: url("img/frequency-wave-7776034.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.min{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 30rem;
+    height: 15rem;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    border: 1.7px solid rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+h1, label, button{
+    background: linear-gradient( to right, rgba(0, 168, 253), #ff8c8c 35%, #e00a95);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
+#p1{
+    background: linear-gradient( to right, rgba(0, 168, 253), #ff8c8c 35%, #e00a95);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
+@keyframes gradient {
+    0%{background-position: 0% 75%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 70%;}
+}
+
+input{
+    margin: 0.6rem;
+}
